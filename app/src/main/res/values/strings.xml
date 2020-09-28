@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">Deudores</string>
+    <string name="hola_mundo">Hola Mundo!</string>
+    <string name="registro" translatable="false" tools:ignore="MissingTranslation">Registro</string>
+    <string name="nombres">Nombre</string>
+    <string name="correo">Correo Eléctronico</string>
+    <string name="telefono">Teléfono</string>
+    <string name="contraseña">Password</string>
+    <string name="registrar">Registrar</string>
+    <string name="confirmar">Confirmar Password</string>
+    <string name="masculino">Masculino</string>
+    <string name="femenino">Femenino</string>
+    <string name="genero">Género</string>
+    <string name="respuesta">Nombre: %s \nCorreo: %s \nContraseña: %s \nTelefono: %s \nGenero: %s \nPasatiempos: %s \nFecha de nacimiento: %s \nCiudad de nacimiento: %s</string>
+    <string name="pasatiempos">Pasatiempos</string>
+    <string name="nadar">Nadar</string>
+    <string name="cine">Cine</string>
+    <string name="comer">Comer</string>
+    <string name="contraseña_no_coincide">Contraseñas no coinciden</string>
+    <string name="lugar_de_nacimiento">Lugar de nacimiento</string>
+    <string name="futbol">Fútbol</string>
+    <string name="fecha_nacimiento">Fecha de nacimiento</string>
+    <string-array name="ciudad_nacimiento">
+        <item>Seleccione una ciudad</item>
+        <item>Medellín</item>
+        <item>Bogotá</item>
+        <item>Cali</item>
+        <item>Bucaramanga</item>
+        <item>Barranquilla</item>
+    </string-array>
+</resources>
