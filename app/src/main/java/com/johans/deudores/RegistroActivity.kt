@@ -3,13 +3,15 @@ package com.johans.deudores
 import android.annotation.SuppressLint
 import android.app.DatePickerDialog
 import android.os.Bundle
+import android.util.Log
+import android.view.View
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
-import kotlinx.android.synthetic.main.activity_main.*
+import kotlinx.android.synthetic.main.activity_registro.*
 import java.text.SimpleDateFormat
 import java.util.*
 
-class MainActivity : AppCompatActivity() {
+class RegistroActivity : AppCompatActivity() {
 
     companion object {
         private const val EMPTY = ""
@@ -21,11 +23,12 @@ class MainActivity : AppCompatActivity() {
     private var fechaNacimiento: String = ""
     private var cal = Calendar.getInstance()
 
-
     @SuppressLint("SetTextI18n")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
+        setContentView(R.layout.activity_registro)
+
+        Log.d("Método","onCreate")
 
         val dateSetListener =
             DatePickerDialog.OnDateSetListener { view, year, month, dayOfmonth ->
@@ -109,4 +112,36 @@ class MainActivity : AppCompatActivity() {
 
         }
     }
+
+    override fun onStart() {
+        super.onStart()
+        Log.d("Método","onStart")
+    }
+
+    override fun onResume() {
+        super.onResume()
+        Log.d("Método","onResume")
+    }
+
+    override fun onPause() {
+        super.onPause()
+        Log.d("Método","onPause")
+    }
+
+    override fun onStop() {
+        super.onStop()
+        Log.d("Método","onStop")
+    }
+
+    override fun onDestroy() {
+        super.onDestroy()
+        Log.d("Método","onDestroy")
+    }
+
+    override fun onRestart() {
+        super.onRestart()
+        Log.d("Método","onRestart")
+    }
+
+    fun showDatePickerDialog(view: View) {}
 }
