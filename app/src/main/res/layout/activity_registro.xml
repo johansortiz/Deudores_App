@@ -9,7 +9,7 @@
     android:fillViewport="true"
     tools:layout_editor_absoluteX="1dp"
     tools:layout_editor_absoluteY="606dp"
-    tools:context=".RegistroActivity">
+    tools:context=".ui.registro.RegistroActivity">
 
 
 
@@ -18,7 +18,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
-        tools:context=".RegistroActivity">
+        tools:context=".ui.registro.RegistroActivity">
 
 
         <Button
@@ -27,7 +27,6 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="8dp"
             android:layout_marginTop="8dp"
-            android:backgroundTint="#dc69f0"
             android:onClick="showDatePickerDialog"
             android:text="@string/fecha_nacimiento"
             android:textAppearance="@style/TextAppearance.AppCompat.Body1"
@@ -36,7 +35,8 @@
             android:textStyle="bold"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/nadar_chk"
-            tools:ignore="OnClick" />
+            tools:ignore="OnClick"
+            android:background="@drawable/boton_forma"/>
 
         <TextView
             android:id="@+id/titulo_text_view"
@@ -45,7 +45,7 @@
             android:layout_marginTop="8dp"
             android:text="@string/registro"
             android:textAlignment="center"
-            android:textColor="#9C27B0"
+            android:textColor="@color/colorPrimary"
             android:textSize="32sp"
             android:textStyle="bold"
             app:layout_constraintEnd_toEndOf="parent"
@@ -185,8 +185,7 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
-            android:background="#A81616"
-            android:backgroundTint="#9C27B0"
+            android:background="@drawable/boton_forma"
             android:shadowColor="#FFFFFF"
             android:text="@string/registrar"
             android:textColor="#FFFFFF"

@@ -2,6 +2,7 @@
 <resources>
     <string name="app_name">Deudores</string>
     <string name="hola_mundo">Hello World!</string>
+    <string name="titulo_login">LOGIN</string>
     <string name="registro" >Registry</string>
     <string name="nombres">Name</string>
     <string name="correo">Email</string>
@@ -21,6 +22,11 @@
     <string name="futbol">Soccer</string>
     <string name="fecha_nacimiento">Date of birth</string>
     <string name="lugar_de_nacimiento">City of birth</string>
+    <string name="login">LOGIN</string>
+    <string name="registrologin">REGISTRO</string>
+    <string name="digite_nombre">"Name "</string>
+    <string name="guardar">Save</string>
+    <string name="buscar">Search</string>
     <string-array name="ciudad_nacimiento">
         <item>Choose city</item>
         <item>Medellín</item>
@@ -29,4 +35,7 @@
         <item>Bucaramanga</item>
         <item>Barranquilla</item>
     </string-array>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="deuda">Debit</string>
+    <string name="crear">Crear</string>
 </resources>
