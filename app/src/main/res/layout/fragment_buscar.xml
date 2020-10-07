@@ -7,13 +7,11 @@
     tools:context=".ui.buscar.BuscarFragment">
 
     <com.google.android.material.textfield.TextInputLayout
-        android:id="@+id/nombre_buscar_text_layout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
 
         <com.google.android.material.textfield.TextInputEditText
-            android:id="@+id/nombre_buscar_text_view"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="@string/digite_nombre"
@@ -22,7 +20,6 @@
     </com.google.android.material.textfield.TextInputLayout>
 
     <Button
-        android:id="@+id/buscar_btn"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@drawable/boton_forma"
@@ -31,7 +28,6 @@
         android:textStyle="bold" />
 
     <TextView
-        android:id="@+id/telefono_text_view"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/telefono"
@@ -39,7 +35,6 @@
         android:textSize="24sp" />
 
     <TextView
-        android:id="@+id/dueda_text_view"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/deuda"

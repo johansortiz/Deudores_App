@@ -172,7 +172,6 @@
                 android:text="@string/masculino" />
 
             <RadioButton
-                android:id="@+id/femenino_RadioB"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"

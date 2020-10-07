@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:tools="http://schemas.android.com/tools">
     <string name="app_name">Deudores</string>
-    <string name="hola_mundo">Hola Mundo!</string>
     <string name="titulo_login">LOGIN</string>
     <string name="registro" translatable="false" tools:ignore="MissingTranslation">Registro</string>
     <string name="nombres">Nombre</string>
@@ -39,4 +38,18 @@
     <string name="guardar">Guardar</string>
     <string name="buscar">Buscar</string>
     <string name="crear">Crear</string>
+    <string name="title_activity_drawer">DrawerActivity</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+
+    <string name="actualizar">Actualizar</string>
+    <string name="borrar">Borrar</string>
+    <string name="title_activity_botton">MainActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_activity_tabbed">TabbedActivity</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
 </resources>

@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Deudores</string>
-    <string name="hola_mundo">Hello World!</string>
     <string name="titulo_login">LOGIN</string>
     <string name="registro" >Registry</string>
     <string name="nombres">Name</string>
@@ -38,4 +37,6 @@
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="deuda">Debit</string>
     <string name="crear">Crear</string>
+    <string name="actualizar">Actualizar</string>
+    <string name="borrar">Borrar</string>
 </resources>
