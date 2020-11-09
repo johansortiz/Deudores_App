@@ -39,4 +39,13 @@
     <string name="crear">Crear</string>
     <string name="actualizar">Actualizar</string>
     <string name="borrar">Borrar</string>
+    <string name="lista">Lista</string>
+    <string name="cerrar_sesion">Cerrar sesión</string>
+    <string name="title_activity_drawer">DrawerActivity</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+
+    <string name="title_activity_botton">MainActivity</string>
+    <string name="title_activity_tabbed">TabbedActivity</string>
 </resources>

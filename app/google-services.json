@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "253858242749",
+    "firebase_url": "https://deudores-89d78.firebaseio.com",
+    "project_id": "deudores-89d78",
+    "storage_bucket": "deudores-89d78.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:253858242749:android:607b097fa4835e2d2fd7d4",
+        "android_client_info": {
+          "package_name": "com.johans.deudores"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "253858242749-8teho7plpba9p2ja24fimfc3eh2f4llk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.johans.deudores",
+            "certificate_hash": "00179d8e53a3f41ebb602ea6b4778c9e11f6463f"
+          }
+        },
+        {
+          "client_id": "253858242749-ajakl1me0qp84c3i5e8qm9ujgvjb1482.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCb8ZcCiE-k49i-4lyTS1UtcMaySBBkLDw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "253858242749-ajakl1me0qp84c3i5e8qm9ujgvjb1482.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

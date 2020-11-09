@@ -1,17 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:padding="8dp"
     tools:context=".ui.buscar.BuscarFragment">
 
     <com.google.android.material.textfield.TextInputLayout
-        android:layout_width="match_parent"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
         android:layout_height="wrap_content"
-        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        android:layout_width="match_parent"
+        app:errorEnabled="true">
 
         <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/nombre_buscar_edit_text"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="@string/digite_nombre"
@@ -20,6 +24,7 @@
     </com.google.android.material.textfield.TextInputLayout>
 
     <Button
+        android:id="@+id/btn_buscar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@drawable/boton_forma"
@@ -27,18 +32,58 @@
         android:textColor="#FFFFFF"
         android:textStyle="bold" />
 
-    <TextView
-        android:layout_width="match_parent"
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/telefono"
-        android:textColor="@android:color/background_dark"
-        android:textSize="24sp" />
+        android:orientation="horizontal">
 
-    <TextView
-        android:layout_width="match_parent"
+        <TextView
+            android:id="@+id/telefono_text_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/telefono"
+            android:textColor="@android:color/background_dark"
+            android:textSize="24sp"
+            android:visibility="visible" />
+
+        <TextView
+            android:id="@+id/telefono_text_view_buscar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="73dp"
+            android:text="@string/telefono"
+            android:textColor="@android:color/background_dark"
+            android:textSize="24sp"
+            android:visibility="invisible"
+            tools:ignore="RtlHardcoded,RtlSymmetry" />
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/deuda"
-        android:textColor="@android:color/holo_red_dark"
-        android:textSize="24sp" />
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/valor_text_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/deuda"
+            android:textColor="@android:color/background_dark"
+            android:textSize="24sp"
+            android:visibility="visible" />
+
+        <TextView
+            android:id="@+id/valor_text_view_buscar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="40dp"
+            android:text="@string/deuda"
+            android:textColor="@android:color/holo_red_dark"
+            android:textSize="24sp"
+            android:visibility="invisible"
+            tools:ignore="RtlHardcoded,RtlSymmetry" />
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
 
 </LinearLayout>

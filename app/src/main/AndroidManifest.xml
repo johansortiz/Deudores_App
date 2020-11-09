@@ -4,6 +4,7 @@
     package="com.johans.deudores">
 
     <application
+        android:name=".Deudores"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
@@ -15,11 +16,7 @@
             android:name=".ui.tabs.TabbedActivity"
             android:label="@string/title_activity_tabbed"
             android:theme="@style/AppTheme.NoActionBar">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
         <activity
             android:name=".ui.botton.BottonActivity"
@@ -38,7 +35,14 @@
             android:label="@string/titulo_login" />
         <activity
             android:name=".ui.splash.SplashActivity"
-            android:theme="@style/NoActionBar" />
+            android:theme="@style/NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+        </activity>
         <activity android:name=".ui.registro.RegistroActivity" />
     </application>
 
